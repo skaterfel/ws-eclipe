@@ -1,0 +1,18 @@
+import java.util.Locale;
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("Usando printf");
+		String nome = "Iori";
+		int idade = 2022 - 2020;
+		double renda = 2000.0;
+		
+		Locale.setDefault(Locale.US);
+		
+		System.out.printf("Meu filho %s tem %d e recebe uma mesada de R$ %.2f por mes", nome, idade, renda)
+		
+		
+	}
+
+}
